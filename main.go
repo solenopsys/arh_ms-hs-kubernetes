@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	zmq_connector "github.com/solenopsys/sc-bl-zmq-connector"
 	"io/ioutil"
 	"k8s.io/client-go/rest"
 	"log"
 	"net/http"
-	"solenopsys.org/zmq_connector"
 )
 
 func getProcessing(client *http.Client, config *rest.Config) func(message []byte) []byte {

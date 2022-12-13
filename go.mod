@@ -2,11 +2,10 @@ module solenopsys.org/kubernetes
 
 go 1.17
 
-replace solenopsys.org/zmq_connector v0.0.0 => ./zmq_connector
+require github.com/solenopsys/sc-bl-zmq-connector v1.0.2
 
 require (
 	k8s.io/client-go v0.24.1
-	solenopsys.org/zmq_connector v0.0.0
 )
 
 require (
