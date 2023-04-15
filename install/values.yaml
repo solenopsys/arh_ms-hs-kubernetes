@@ -6,5 +6,5 @@ hsServiceName: "alexstorm-hsm-kubernetes"
 containers:
   router:
     name: api-adapter
-    image: registry.alexstorm.solenopsys.org/alexstorm-hsm-kubernetes
+    image: registry.klogsolenopsys.org/alexstorm-hsm-kubernetes
     zmqPort: 9999
